@@ -17,12 +17,12 @@ body {
 	justify-content: center;
 }
 
-#container {
+#bloc {
 	width: 100%;
 	max-width: 1354px;
 }
 
-.menu a:visited, .column_footer a:visited, .hébergement a:visited, .logements-p a:visited, .activities a:visited .afficher-plus a:visited {
+.menu a:visited, .column_footer a:visited, .hébergement a:visited, .logements_p a:visited, .activité a:visited .afficher_plus a:visited {
 	color: black;
 }
 
@@ -30,7 +30,7 @@ body {
 	color: var(--blue);
 }
 
-.encadre-loge:hover, .best_lodging_card:hover, .activity_card:hover {
+.encadre_loge:hover, .les_plus_pop:hover, .activités_mars:hover {
 	transform: scale(1.05);
 	box-shadow: 5px 5px 10px rgb(177 177 177 / 20%);
 }
@@ -51,7 +51,7 @@ p, li, .filter_name {
 	background-size: cover;
 	background-position: center;
 }
-.encadre-loge em, .best_lodging_card em {
+.encadre_loge em, .les_plus_pop em {
 	font-weight: bolder;
 	font-style: initial;
 }
@@ -68,7 +68,7 @@ header {
 	padding: 35px 0 0 50px;
 }
 
-.nav_bar {
+.navh {
 	display: flex;
 	flex-direction: row;
 }
@@ -97,7 +97,7 @@ nav li, nav a {
 	border-top: solid 2.5px var(--blue);
 }
 
-.signup {
+.inscrire {
 	display: flex;
 	color: var(--blue);
 	font-weight: bold;
@@ -106,23 +106,23 @@ nav li, nav a {
 	border-top: solid 2.5px transparent;
 }
 
-.signup:hover {
+.inscrire:hover {
 	color: var(--lightblue);
 	border-top: solid 2.5px var(--lightblue) ;
 }
 
 /************************************recherche***********************************/
-#search_section {
+#recherche {
 	padding: 50px 0px 30px 50px;
 }
 
-.search_city {
+.recherche_ville {
 	display: flex;
 	flex-direction: row;
 	margin: 20px 0 30px 0;
 }
 
-#search_title {
+#recherche_titre {
 	font-size: 20px;
 	padding-bottom: 10px;
 }
@@ -137,7 +137,7 @@ nav li, nav a {
 	border-radius: 15px 0 0 15px;
 	background-color: var(--lightgrey)
 }
-.search_city form {
+.recherche_ville form {
 	display: flex;
 	flex-direction: row;
 }
@@ -308,7 +308,7 @@ main {
 	font-size: 1.25rem;
 }
 
-.encadre-log {
+.encadre_log {
 	display: flex;
 	flex-flow: column wrap;
 	height: 450px;
@@ -316,7 +316,7 @@ main {
 	margin: 5px 20px 0px 20px;
 }
 
-.encadre-loge {
+.encadre_loge {
 	width: 220px;
 	height: 185px;
 	border-radius: var(--radius);
@@ -332,27 +332,27 @@ main {
 	width: 100%;
 }
 
-.img-cann {
+.img_cann {
 	background-image: url(hebergementxl/imgxl-cann.jpg);
 }
 
-.img-hmer {
+.img_hmer {
 	background-image: url(hebergementxl/hotelmerxl.jpg);
 }
 
-.img-hport {
+.img_hport {
 	background-image: url(hebergementxl/hotelportxl.jpg);
 }
 
-.img-aub {
+.img_aub {
 	background-image: url(hebergementxl/aubergepanxl.jpg);
 }
 
-.img-hmouettes {
+.img_hmouettes {
 	background-image: url(hebergementxl/hotelmouettesxl.jpg);
 }
 
-.img-amina {
+.img_amina {
 	background-image: url(hebergementxl/hotelchezamxl.jpg);
 }
 
@@ -385,12 +385,12 @@ main {
 	color: black;
 }
 
-.hébergement .afficher-plus:hover {
+.hébergement .afficher_plus:hover {
 	color: var(--blue);
 }
 
 /*****************************populaire********************************/
-.logements-p {
+.logements_p {
 	display:flex;
 	flex-direction: column;
 	width: 385px;
@@ -399,7 +399,7 @@ main {
 	border-radius: var(--radius);
 }
 
-.logement-pt {
+.logement_pt {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -407,22 +407,22 @@ main {
 	margin-top: 40px;
 }
 
-.logements-p h2 {
+.logements_p h2 {
 	margin-bottom: 0px;
 	font-size: 1.25rem;
 }
 
-.logement-pt i:hover{
+.logement_pt i:hover{
 	cursor: pointer;
 	color: var(--blue);
 }
-.logements-b {
+.logements_b {
 	display: flex;
 	flex-direction: column;
 	margin: 5px 20px 10px 20px;
 }
 
-.best_lodging_card {
+.les_plus_pop {
 	display: flex;
 	height: 135px;
 	width: 305px;
@@ -432,13 +432,13 @@ main {
 	box-shadow: 5px 5px 10px rgb(177 177 177 / 40%);
 	margin: 15px;
 }
- .logements-p a {
+ .logements_p a {
 	 display: flex;
 	 flex-direction: row;
 	 width: 100%;
  }
 
-.img_best_lodging {
+.img_plus_pop {
 	border-radius: var(--radius) 0 0 var(--radius);
 	height: 134px;
 	width: 38%;
@@ -452,17 +452,17 @@ main {
 	flex-direction: column;
 }
 
-.logements-p h3, .logements-p p {
+.logements_p h3, .logements_p p {
 	margin:5px 20px 5px 0px;
 	color: black;
 }
 
-.logements-p h3, .logements-p p, .grades {
+.logements_p h3, .logements_p p, .grades {
 	margin-left: 15px;
 	width: 95%;
 }
 
-.logements-p .grades {
+.logements_p .grades {
 	margin: 30px 0 0 15px;
 	font-size: 13px;
 }
@@ -482,7 +482,7 @@ main {
 
 
 /**************************activité marseille*******************************/
-.activities {
+.activité {
 	width: 100%;
 	height:500px;
 	display:flex;
@@ -490,7 +490,7 @@ main {
 	margin:40px 0  10px 0;
 }
 
-.activities_cards {
+.activité_mars {
 	display:flex;
 	flex-flow: column wrap;
 	align-content: space-between;
@@ -498,25 +498,25 @@ main {
 	width: 100%;
 	margin-top: 20px;
 }
-.activities h2 {
+.activité h2 {
 	font-size: 1.25rem;
 }
 
-.activities h3 {
+.activité h3 {
 	margin: 20px 0 0 15px;
 	color: black;
 }
 
-.activity_card {
+.activités_mars {
 	border-radius: var(--radius);
 	box-shadow: 5px 5px 10px rgb(177 177 177 / 40%);
 }
 
-.img_activity {
+.img_activités {
 	border-radius: var(--radius) var(--radius) 0 0;
 }
 
-.activity_vieux_port {
+.activité_vieux_port {
 	height:430px;
 	width: 275px;
 }
@@ -531,7 +531,7 @@ main {
 
 
 
-.activity_fort {
+.activité_fort {
 	height:215px;
 	width: 280px;
 	margin-bottom: 40px;
@@ -545,7 +545,7 @@ main {
 	background-position: bottom 265px center;
 }
 
-.activity_iles {
+.activité_iles {
 	height: 175px;
 	width: 280px;
 }
@@ -557,7 +557,7 @@ main {
 	background-size: cover;
 }
 
-.activity_parc_national {
+.activité_parc_national {
 	height:430px;
 	width: 280px;
 }
@@ -570,7 +570,7 @@ main {
 	background-position: center;
 }
 
-.activity_notre_dame {
+.activité_notre_dame {
 	height:190px;
 	width: 280px;
 	margin-bottom: 40px;
@@ -583,7 +583,7 @@ main {
 	background-size: cover;
 }
 
-.activity_parc_longchamp {
+.activité_parc_longchamp {
 	height:200px;
 	width: 280px;
 }
@@ -632,5 +632,412 @@ footer ul {
 .column_footer li a {
 	color: black;
 }
+
+
+/***************************************mobile********************************/
+
+
+@media only screen and (max-width: 722px) {
+	html {
+		overflow-x: hidden;
+	}
+
+	body {
+		margin: 0;
+		overflow-x: hidden;
+	  }
+
+	#logo {
+		margin-top: 25px;
+		margin-left: 5%;
+		position: absolute;
+		padding: 0;
+	  }
+
+	.navh {
+		width: 100%;
+		position: relative;
+		flex-direction: column-reverse;
+	  }
+
+	nav ul {
+		width: 100%;
+		padding-left: 0;
+		margin-right: 0;
+	  }
+
+	nav ul li {
+		border-bottom: solid 2.5px var(--lightgrey);
+		padding-bottom: 15px;
+	  }
+
+	  .menu {
+		text-align: center;
+		width: 100%;
+		padding-bottom: 15px;
+		padding-top: 25px;
+	  }
+
+	  .menu a:hover, nav ul li:hover {
+		border-bottom: solid 2.5px var(--blue);
+		border-top: solid 2.5px transparent;
+		padding-bottom: 15px;
+	  }
+
+	  .lightblue_link {
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+
+	  }
+
+	  .signup {
+		margin-right:3%;
+	  }
+
+	.signup:hover {
+		border-top:transparent;
+		color: var(--lightblue);
+		text-shadow: 2px 2px 4px var(--blue);
+		font-size: 1rem;
+		transition: 1s;
+	}
+
+	#recherche {
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-right: 0px;
+	}
+
+	h1 {
+		margin-right: 5%;
+	}
+
+	.recherche_ville{
+		margin-top: 30px;
+	}
+
+	.recherche_ville form {
+		width: 75%;
+	}
+
+	.button {
+		width: 50px;
+		height: 50px;
+		margin-left: -10px;
+		border-radius: 15px;
+	}
+
+	.button span {
+		display: none;
+	}
+
+	.button i {
+		visibility: visible;
+		padding-right: 5px;
+		width: 20%;
+	}
+
+	.filtres h3 {
+		margin-bottom: 10px;
+	}
+	.filtres label {
+		margin: 5px 10px 10px 0;
+	}
+
+	.info {
+		margin: 20px 0 10px 0;
+	}
+
+	main {
+		flex-direction: column;
+		width: 100%;
+		margin:0;
+	}
+
+	.hébergement h2, .activité h2 {
+		margin: 40px 7% 30px 7%;
+		font-size: 1.25rem;
+		
+	}
+
+	.hébergement {
+		width: 100%;
+		height: initial;
+		background-color: initial;
+		margin: 0;
+	}
+
+	.encadre_log {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		height: initial;
+		margin: 0;
+	}
+
+	.encadre_loge {
+		width: 85%;
+		height:200px;
+		margin: 0 0 20px 0;
+	}
+
+	.logements_p {
+		width: 100%;
+		order: -1;
+		align-items: center;
+		height: initial;
+		border-radius: initial;
+		margin: 0;
+	}
+
+	.afficher_plus {
+		margin-left: 7%;
+		margin-top: 10px;
+	}
+
+	.logement_pt {
+		justify-content: space-between;
+		margin: 40px 0 30px 0;
+		width: 85%;
+	}
+
+	.logements_b {
+		width: 85%;
+		height: initial;
+		align-items: center;
+		margin: 0;
+	}
+
+	.les_plus_pop {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+
+	.activité {
+		width: 100%;
+		margin: 0;
+		height: initial;
+	}
+
+	.activité_mars {
+		flex-direction: column;
+		width: 100%;
+		align-content: center;
+		height: initial;
+		margin: 0;
+	}
+
+	.activité_vieux_port, .activité_fort, .activité_iles, .activité_parc_national, .activité_notre_dame, .activité_parc_longchamp {
+		width: 85%;
+		height: 192px;
+		margin: 0 0 20px 0;
+	}
+
+	.vieuxportxl, .img_fort, .img_iles, .img_parc_national, .img_notre_dame, .img_parc_longchamp {
+		height:134px;
+		width: 100%;
+		background-position: center;
+	}
+
+	footer {
+		flex-direction: column;
+		width: 100%;
+		height: initial;
+		padding-top: 20px;
+	}
+	.column_footer {
+		margin: 30px 0 30px 20px;
+		padding: 0;
+	}
+}
+
+/***************************************tablette************************/
+@media only screen and (min-width:723px) and (max-width:1024px) {
+	.hébergement {
+		width: 100%;
+		height: initial;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0;
+	}
+	.encadre_log {
+		width: 95%;
+		justify-content: space-between;
+		align-items: center;
+		margin: 30px 0 10px 0;
+	}
+
+	.encadre_loge {
+		width: 30%;
+		margin: 0;
+	}
+
+	.afficher_plus {
+		align-self: center;
+		margin-bottom: 30px;
+	}
+
+	.logements_p {
+		width: 100%;
+		align-items: center;
+		height: initial;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.logement_pt {
+		margin:30px;
+		width: 50%;
+		justify-content: space-between;
+	}
+
+	.logements_b {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		width: 95%;
+	}
+
+	.les_plus_pop {
+		width: 90%;
+		margin: 0 0 15px 0;
+	}
+
+	.img_plus_pop {
+		width: 50%;
+	}
+
+	.information {
+		width: 50%;
+	}
+
+	.activité {
+		width: 100%;
+		margin: 0;
+		height: initial;
+		align-items: center;
+	}
+
+	.activité h2 {
+		margin-bottom: 30px;
+	}
+
+	.activité_mars {
+		flex-direction: row;
+		width: 100%;
+		align-content: center;
+		justify-content: space-between;
+		height: initial;
+		margin: 0;
+	}
+
+	.activité_vieux_port, .activité_fort, .activité_iles, .activité_parc_national, .activité_notre_dame, .activité_parc_longchamp {
+		width: 31%;
+		height: 192px;
+	}
+
+	.vieuxportxl, .img_fort, .img_iles, .img_parc_national, .img_notre_dame, .img_parc_longchamp {
+		height:134px;
+		width: 100%;
+		background-position: center;	
+	}
+
+	.column_footer {
+		margin-right: 5%;
+	}
+}
+
+/***************************************petit écran************************/
+@media only screen and (min-width:1025px) and (max-width: 1320px) {
+	.hébergement {
+		width: 100%;
+		height: initial;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0;
+	}
+
+	.encadre_log {
+		width: 95%;
+		justify-content: space-between;
+		align-items: center;
+		margin: 30px 0 10px 0;
+	}
+
+	.encadre_loge {
+		width: 30%;
+		margin: 0;
+	}
+
+	.afficher_plus {
+		align-self: center;
+		margin-bottom: 30px;
+	}
+
+	.logements_p {
+		width: 100%;
+		height: initial;
+		align-content: center;
+		align-items: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.logement_pt {
+		margin:30px;
+		width: 30%;
+	}
+
+	.logements_b {
+		flex-direction: row;
+		justify-content: space-between;
+		width: 95%;
+	}
+
+	.les_plus_pop {
+		width: 31%;
+		margin: 0 0 15px 0;
+	}
+
+	.activité {
+		width: 100%;
+		margin: 0;
+		height: initial;
+		align-items: center;
+	}
+
+	.activité h2 {
+		margin-bottom: 30px;
+	}
+
+	.activité_mars {
+		flex-direction: row;
+		width: 100%;
+		align-content: center;
+		justify-content: space-between;
+		height: initial;
+		margin: 0;
+	}
+
+	.activité_vieux_port, .activité_fort, .activité_iles, .activité_parc_national, .activité_notre_dame, .activité_parc_longchamp {
+		width: 31%;
+		height: 192px;
+	}
+
+	.vieuxportxl, .img_fort, .img_iles, .img_parc_national, .img_notre_dame, .img_parc_longchamp {
+		height:134px;
+		width: 100%;
+		background-position: center;
+		
+	}
+
+	.column_footer {
+		margin-right: 5%;
+	}
+}
+
+
+
 
 
