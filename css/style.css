@@ -333,27 +333,27 @@ main {
 }
 
 .img_cann {
-	background-image: url(hebergement_m/cann_m.jpg);
+	background-image: url(../img/hebergement_m/cann_m.jpg);
 }
 
 .img_hmer {
-	background-image: url(hebergement_m/hotelmer_m.jpg);
+	background-image: url(../img/hebergement_m/hotelmer_m.jpg);
 }
 
 .img_hport {
-	background-image: url(hebergement_m/hotelport_m.jpg);
+	background-image: url(../img/hebergement_m/hotelport_m.jpg);
 }
 
 .img_aub {
-	background-image: url(hebergement_m/aubergepan_m.jpg);
+	background-image: url(../img/hebergement_m/aubergepan_m.jpg);
 }
 
 .img_hmouettes {
-	background-image: url(hebergement_m/hotelmouette_m.jpg);
+	background-image: url(../img/hebergement_m/hotelmouette_m.jpg);
 }
 
 .img_amina {
-	background-image: url(hebergement_m/hotelchezam_m.jpg);
+	background-image: url(../img/hebergement_m/hotelchezam_m.jpg);
 }
 
 .hébergement h3, .hébergement p {
@@ -468,15 +468,15 @@ main {
 }
 
 .hotelsoleilxl {
-	background-image: url(populaire_m/hotelsoleil_m.jpg);
+	background-image: url(../img/populaire_m/hotelsoleil_m.jpg);
 }
 
 .coeurdeleauxl {
-	background-image: url(populaire_m/coeurdeleau_m.jpg);
+	background-image: url(../img/populaire_m/coeurdeleau_m.jpg);
 }
 
 .hotelbleuxl {
-	background-image: url(populaire_m/hotelbleu_m.jpg);
+	background-image: url(../img/populaire_m/hotelbleu_m.jpg);
 }
 
 
@@ -522,7 +522,7 @@ main {
 }
 
 .vieuxportxl {
-	background-image: url(activite_m/vieuxport_m.jpg);
+	background-image: url(../img/activite_m/vieuxport_m.jpg);
 	width: 100%;
 	height: 380px;
 	background-size: cover;
@@ -538,7 +538,7 @@ main {
 }
 
 .img_fort {
-	background-image: url(activite_m/fort_m.jpg);
+	background-image: url(../img/activite_m/fort_m.jpg);
 	width: 100%;
 	height: 165px;
 	background-size: cover;
@@ -551,7 +551,7 @@ main {
 }
 
 .img_iles {
-	background-image: url(activite_m/ile_m.jpg);
+	background-image: url(../img/activite_m/ile_m.jpg);
 	width: 100%;
 	height: 125px;
 	background-size: cover;
@@ -563,7 +563,7 @@ main {
 }
 
 .img_parc_national {
-	background-image: url(activite_m/parccalanque_m.jpg);
+	background-image: url(../img/activite_m/parccalanque_m.jpg);
 	width: 100%;
 	height: 380px;
 	background-size: cover;
@@ -577,7 +577,7 @@ main {
 }
 
 .img_notre_dame {
-	background-image: url(activite_m/notredame_m.jpg);
+	background-image: url(../img/activite_m/notredame_m.jpg);
 	width: 100%;
 	height: 140px;
 	background-size: cover;
@@ -589,7 +589,7 @@ main {
 }
 
 .img_parc_longchamp {
-	background-image: url(activite_m/parclongchamp_m.jpg);
+	background-image: url(../img/activite_m/parclongchamp_m.jpg);
 	width: 100%;
 	height: 150px;
 	background-size: cover;
